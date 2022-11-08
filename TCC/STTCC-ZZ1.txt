@@ -1,0 +1,1 @@
+| CODIGO          | FORNECEDOR          | LOJA          | NOME FORNECEDOR                              | DADOS DO CERTIFICADO                              | VALIDADE          | TOLERANCIA (%)          | QTD. OK          | QTD. N. OK |

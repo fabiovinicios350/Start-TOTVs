@@ -1,0 +1,1 @@
+|  CODIGO          |  FORNECEDOR          |  LOJA          |  NOME FORNECEDOR                    |  DATA          |  HORA          |  PRODUTO          |  QTD OK          |  QTD N OK          |  VALOR UN.          |  R$ OK          |  R$ N OK  |
