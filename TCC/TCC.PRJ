@@ -1,0 +1,41 @@
+Group TCC
+   Version=7.0
+   VSSDB=
+   HasProperties=1
+   Properties
+      BeforeApply=
+      AfterApply=
+      Icon=
+      ID=
+      Version=
+      PalmName=
+      OutPut=
+   End
+   ProjectsCount=1
+   Project Start TOTVS IP
+      FoldersCount=2
+      Folder Fontes
+         VSSPath=Fontes
+         FilesCount=5
+         File \StartTOTVSIP\Fontes\TCC\STTCC001.PRW
+             Type=T
+         End
+         File \StartTOTVSIP\Fontes\TCC\STTCC002.PRW
+             Type=T
+         End
+         File \StartTOTVSIP\Fontes\TCC\STTCC003.PRW
+             Type=T
+         End
+         File \StartTOTVSIP\Fontes\TCC\STTCC004.PRW
+             Type=T
+         End
+         File \StartTOTVSIP\Fontes\TCC\STTCCLIB.PRW
+             Type=T
+         End
+      End
+      Folder Definições
+         VSSPath=Definições
+         FilesCount=0
+      End
+   End
+End
