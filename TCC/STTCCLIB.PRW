@@ -447,6 +447,8 @@ User Function AJUSTEENTREGUE()
 	ZZ1->(dbGoTop())
 
 	while !ZZ1->(Eof())
+		nEntregue:=0
+		nNEntregue:=0
 		ZZ2->(dbGoTop())
 		while !ZZ2->(Eof())
 			if ((ZZ2->ZZ2_CONFOR)==(ZZ1->ZZ1_CODIGO))
@@ -456,8 +458,11 @@ User Function AJUSTEENTREGUE()
 			ZZ2->(dbSkip())
 		ENDDO
 
-		Alert(nEntregue)
-		Alert(nNEntregue)
+
+		RecLock("ZZ1", .F.)
+			ZZ1->ZZ1_TOTOK := nEntregue
+			ZZ1->ZZ1_TOTNOK := nNEntregue
+		MsUnlock()
 
 	    ZZ1->(dbSkip())
 	ENDDO
